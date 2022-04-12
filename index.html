@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Minimal by Steve Smith</title>
+    <title>Conditional Symbolic Music Generation Using Stylegan2</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -21,613 +21,1004 @@
         <h1>Samples</h1>
         <h2>LAKH Dataset</h2>
         <details>
-          <summary>Piano</summary>
+          <summary><b>Piano</b></summary>
           <p>
             <details>
               <summary>Blues</summary>
               <p>
-                <audio controls src="/audios/LAKH/Piano/blues/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/blues/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/blues/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/blues/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/blues/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/blues/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
               </p>
             </details>
 
             <details>
               <summary>Country</summary>
               <p>
-                <audio controls src="/audios/LAKH/Piano/country/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/country/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/country/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/country/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/country/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/country/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
               </p>
             </details>
             
             <details>
               <summary>Electronic</summary>
               <p>
-                <audio controls src="/audios/LAKH/Piano/electronic/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/electronic/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/electronic/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/electronic/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/electronic/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/electronic/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
               </p>
             </details>
 
             <details>
               <summary>Folk</summary>
               <p>
-                <audio controls src="/audios/LAKH/Piano/folk/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/folk/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/folk/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/folk/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/folk/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/folk/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
               </p>
             </details>
 
             <details>
               <summary>International</summary>
               <p>
-                <audio controls src="/audios/LAKH/Piano/international/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/international/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/international/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/international/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/international/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/international/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
               </p>
             </details>
 
             <details>
               <summary>Jazz</summary>
               <p>
-                <audio controls src="/audios/LAKH/Piano/jazz/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/jazz/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/jazz/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/jazz/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/jazz/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/jazz/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
               </p>
             </details>
 
             <details>
               <summary>Latin</summary>
               <p>
-                <audio controls src="/audios/LAKH/Piano/latin/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/latin/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/latin/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/latin/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/latin/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/latin/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
               </p>
             </details>
 
             <details>
               <summary>New Age</summary>
               <p>
-                <audio controls src="/audios/LAKH/Piano/new_age/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/new_age/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/new_age/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/new_age/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/new_age/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/new_age/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
               </p>
             </details>
 
             <details>
               <summary>Rap</summary>
               <p>
-                <audio controls src="/audios/LAKH/Piano/rap/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/rap/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/rap/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/rap/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/rap/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/rap/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
               </p>
             </details>
 
             <details>
               <summary>Reggae</summary>
               <p>
-                <audio controls src="/audios/LAKH/Piano/reggae/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/reggae/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/reggae/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/reggae/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/reggae/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/reggae/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
               </p>
             </details>
 
             <details>
               <summary>RnB</summary>
               <p>
-                <audio controls src="/audios/LAKH/Piano/rnb/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/rnb/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/rnb/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/rnb/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/rnb/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/rnb/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
               </p>
             </details>
 
             <details>
               <summary>Rock</summary>
               <p>
-                <audio controls src="/audios/LAKH/Piano/rock/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/rock/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/rock/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/rock/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/rock/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/rock/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
               </p>
             </details>
 
             <details>
               <summary>Vocal</summary>
               <p>
-                <audio controls src="/audios/LAKH/Piano/vocal/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/vocal/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Piano/vocal/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/vocal/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/vocal/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/LAKH/Piano/vocal/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
               </p>
             </details>
           </p>
         </details>
         <details>
-          <summary>Guitar</summary>
+          <summary><b>Guitar</b></summary>
           <p>
             <details>
               <summary>Blues</summary>
               <p>
-                <audio controls src="/audios/LAKH/Guitar/blues/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/blues/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/blues/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/blues/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/blues/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/blues/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Country</summary>
               <p>
-                <audio controls src="/audios/LAKH/Guitar/country/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/country/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/country/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/country/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/country/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/country/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
             
             <details>
               <summary>Electronic</summary>
               <p>
-                <audio controls src="/audios/LAKH/Guitar/electronic/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/electronic/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/electronic/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/electronic/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/electronic/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/electronic/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Folk</summary>
               <p>
-                <audio controls src="/audios/LAKH/Guitar/folk/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/folk/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/folk/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/folk/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/folk/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/folk/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>International</summary>
               <p>
-                <audio controls src="/audios/LAKH/Guitar/international/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/international/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/international/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/international/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/international/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/international/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Jazz</summary>
               <p>
-                <audio controls src="/audios/LAKH/Guitar/jazz/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/jazz/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/jazz/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/jazz/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/jazz/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/jazz/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Latin</summary>
               <p>
-                <audio controls src="/audios/LAKH/Guitar/latin/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/latin/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/latin/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/latin/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/latin/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/latin/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>New Age</summary>
               <p>
-                <audio controls src="/audios/LAKH/Guitar/new_age/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/new_age/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/new_age/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/new_age/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/new_age/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/new_age/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Rap</summary>
               <p>
-                <audio controls src="/audios/LAKH/Guitar/rap/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/rap/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/rap/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/rap/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/rap/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/rap/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Reggae</summary>
               <p>
-                <audio controls src="/audios/LAKH/Guitar/reggae/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/reggae/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/reggae/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/reggae/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/reggae/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/reggae/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>RnB</summary>
               <p>
-                <audio controls src="/audios/LAKH/Guitar/rnb/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/rnb/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/rnb/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/rnb/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/rnb/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/rnb/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Rock</summary>
               <p>
-                <audio controls src="/audios/LAKH/Guitar/rock/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/rock/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/rock/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/rock/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/rock/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/rock/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Vocal</summary>
               <p>
-                <audio controls src="/audios/LAKH/Guitar/vocal/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/vocal/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Guitar/vocal/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
-              </p>
-            </details>
-          </p>
-        </details>
-
-        <details>
-          <summary>Bass</summary>
-          <p>
-            <details>
-              <summary>Blues</summary>
-              <p>
-                <audio controls src="/audios/LAKH/Bass/blues/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/blues/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/blues/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
-              </p>
-            </details>
-
-            <details>
-              <summary>Country</summary>
-              <p>
-                <audio controls src="/audios/LAKH/Bass/country/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/country/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/country/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
-              </p>
-            </details>
-            
-            <details>
-              <summary>Electronic</summary>
-              <p>
-                <audio controls src="/audios/LAKH/Bass/electronic/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/electronic/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/electronic/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
-              </p>
-            </details>
-
-            <details>
-              <summary>Folk</summary>
-              <p>
-                <audio controls src="/audios/LAKH/Bass/folk/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/folk/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/folk/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
-              </p>
-            </details>
-
-            <details>
-              <summary>International</summary>
-              <p>
-                <audio controls src="/audios/LAKH/Bass/international/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/international/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/international/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
-              </p>
-            </details>
-
-            <details>
-              <summary>Jazz</summary>
-              <p>
-                <audio controls src="/audios/LAKH/Bass/jazz/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/jazz/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/jazz/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
-              </p>
-            </details>
-
-            <details>
-              <summary>Latin</summary>
-              <p>
-                <audio controls src="/audios/LAKH/Bass/latin/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/latin/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/latin/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
-              </p>
-            </details>
-
-            <details>
-              <summary>New Age</summary>
-              <p>
-                <audio controls src="/audios/LAKH/Bass/new_age/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/new_age/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/new_age/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
-              </p>
-            </details>
-
-            <details>
-              <summary>Rap</summary>
-              <p>
-                <audio controls src="/audios/LAKH/Bass/rap/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/rap/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/rap/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
-              </p>
-            </details>
-
-            <details>
-              <summary>Reggae</summary>
-              <p>
-                <audio controls src="/audios/LAKH/Bass/reggae/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/reggae/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/reggae/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
-              </p>
-            </details>
-
-            <details>
-              <summary>RnB</summary>
-              <p>
-                <audio controls src="/audios/LAKH/Bass/rnb/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/rnb/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/rnb/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
-              </p>
-            </details>
-
-            <details>
-              <summary>Rock</summary>
-              <p>
-                <audio controls src="/audios/LAKH/Bass/rock/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/rock/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/rock/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
-              </p>
-            </details>
-
-            <details>
-              <summary>Vocal</summary>
-              <p>
-                <audio controls src="/audios/LAKH/Bass/vocal/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/vocal/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Bass/vocal/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/vocal/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/vocal/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Guitar/vocal/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
           </p>
         </details>
 
         <details>
-          <summary>Strings</summary>
+          <summary><b>Bass</b></summary>
           <p>
             <details>
               <summary>Blues</summary>
               <p>
-                <audio controls src="/audios/LAKH/Strings/blues/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/blues/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/blues/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls>
+                    <source src="./audios/LAKH/Bass/blues/sample_0.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio controls src="./audios/LAKH/Bass/blues/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/blues/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Country</summary>
               <p>
-                <audio controls src="/audios/LAKH/Strings/country/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/country/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/country/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/country/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/country/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/country/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
             
             <details>
               <summary>Electronic</summary>
               <p>
-                <audio controls src="/audios/LAKH/Strings/electronic/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/electronic/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/electronic/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/electronic/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/electronic/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/electronic/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Folk</summary>
               <p>
-                <audio controls src="/audios/LAKH/Strings/folk/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/folk/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/folk/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/folk/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/folk/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/folk/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>International</summary>
               <p>
-                <audio controls src="/audios/LAKH/Strings/international/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/international/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/international/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/international/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/international/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/international/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Jazz</summary>
               <p>
-                <audio controls src="/audios/LAKH/Strings/jazz/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/jazz/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/jazz/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/jazz/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/jazz/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/jazz/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Latin</summary>
               <p>
-                <audio controls src="/audios/LAKH/Strings/latin/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/latin/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/latin/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/latin/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/latin/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/latin/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>New Age</summary>
               <p>
-                <audio controls src="/audios/LAKH/Strings/new_age/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/new_age/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/new_age/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/new_age/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/new_age/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/new_age/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Rap</summary>
               <p>
-                <audio controls src="/audios/LAKH/Strings/rap/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/rap/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/rap/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/rap/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/rap/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/rap/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Reggae</summary>
               <p>
-                <audio controls src="/audios/LAKH/Strings/reggae/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/reggae/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/reggae/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/reggae/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/reggae/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/reggae/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>RnB</summary>
               <p>
-                <audio controls src="/audios/LAKH/Strings/rnb/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/rnb/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/rnb/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/rnb/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/rnb/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/rnb/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Rock</summary>
               <p>
-                <audio controls src="/audios/LAKH/Strings/rock/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/rock/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/rock/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/rock/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/rock/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/rock/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Vocal</summary>
               <p>
-                <audio controls src="/audios/LAKH/Strings/vocal/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/vocal/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Strings/vocal/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/vocal/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/vocal/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Bass/vocal/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
           </p>
         </details>
 
         <details>
-          <summary>Drums</summary>
+          <summary><b>Strings</b></summary>
           <p>
             <details>
               <summary>Blues</summary>
               <p>
-                <audio controls src="/audios/LAKH/Drums/blues/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/blues/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/blues/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/blues/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/blues/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/blues/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Country</summary>
               <p>
-                <audio controls src="/audios/LAKH/Drums/country/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/country/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/country/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/country/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/country/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/country/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
             
             <details>
               <summary>Electronic</summary>
               <p>
-                <audio controls src="/audios/LAKH/Drums/electronic/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/electronic/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/electronic/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/electronic/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/electronic/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/electronic/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Folk</summary>
               <p>
-                <audio controls src="/audios/LAKH/Drums/folk/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/folk/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/folk/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/folk/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/folk/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/folk/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>International</summary>
               <p>
-                <audio controls src="/audios/LAKH/Drums/international/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/international/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/international/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/international/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/international/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/international/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Jazz</summary>
               <p>
-                <audio controls src="/audios/LAKH/Drums/jazz/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/jazz/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/jazz/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/jazz/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/jazz/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/jazz/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Latin</summary>
               <p>
-                <audio controls src="/audios/LAKH/Drums/latin/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/latin/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/latin/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/latin/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/latin/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/latin/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>New Age</summary>
               <p>
-                <audio controls src="/audios/LAKH/Drums/new_age/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/new_age/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/new_age/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/new_age/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/new_age/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/new_age/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Rap</summary>
               <p>
-                <audio controls src="/audios/LAKH/Drums/rap/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/rap/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/rap/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/rap/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/rap/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/rap/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Reggae</summary>
               <p>
-                <audio controls src="/audios/LAKH/Drums/reggae/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/reggae/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/reggae/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/reggae/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/reggae/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/reggae/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>RnB</summary>
               <p>
-                <audio controls src="/audios/LAKH/Drums/rnb/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/rnb/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/rnb/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/rnb/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/rnb/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/rnb/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Rock</summary>
               <p>
-                <audio controls src="/audios/LAKH/Drums/rock/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/rock/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/rock/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/rock/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/rock/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/rock/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
 
             <details>
               <summary>Vocal</summary>
               <p>
-                <audio controls src="/audios/LAKH/Drums/vocal/sample_0.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/vocal/sample_1.wav">Your browser does not support the <code>audio</code> element.</audio>
-                <audio controls src="/audios/LAKH/Drums/vocal/sample_2.wav">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/vocal/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/vocal/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Strings/vocal/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
               </p>
             </details>
           </p>
         </details>
+
+        <details>
+          <summary><b>Drums</b></summary>
+          <p>
+            <details>
+              <summary>Blues</summary>
+              <p>
+                <audio controls src="./audios/LAKH/Drums/blues/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/blues/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/blues/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>Country</summary>
+              <p>
+                <audio controls src="./audios/LAKH/Drums/country/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/country/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/country/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+              </p>
+            </details>
+            
+            <details>
+              <summary>Electronic</summary>
+              <p>
+                <audio controls src="./audios/LAKH/Drums/electronic/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/electronic/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/electronic/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>Folk</summary>
+              <p>
+                <audio controls src="./audios/LAKH/Drums/folk/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/folk/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/folk/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>International</summary>
+              <p>
+                <audio controls src="./audios/LAKH/Drums/international/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/international/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/international/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>Jazz</summary>
+              <p>
+                <audio controls src="./audios/LAKH/Drums/jazz/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/jazz/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/jazz/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>Latin</summary>
+              <p>
+                <audio controls src="./audios/LAKH/Drums/latin/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/latin/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/latin/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>New Age</summary>
+              <p>
+                <audio controls src="./audios/LAKH/Drums/new_age/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/new_age/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/new_age/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>Rap</summary>
+              <p>
+                <audio controls src="./audios/LAKH/Drums/rap/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/rap/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/rap/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>Reggae</summary>
+              <p>
+                <audio controls src="./audios/LAKH/Drums/reggae/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/reggae/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/reggae/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>RnB</summary>
+              <p>
+                <audio controls src="./audios/LAKH/Drums/rnb/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/rnb/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/rnb/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>Rock</summary>
+              <p>
+                <audio controls src="./audios/LAKH/Drums/rock/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/rock/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/rock/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>Vocal</summary>
+              <p>
+                <audio controls src="./audios/LAKH/Drums/vocal/sample_0.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/vocal/sample_1.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+                <audio controls src="./audios/LAKH/Drums/vocal/sample_2.mp3" type="audio/mp3">Your browser does not support the <code>audio</code> element.</audio>
+              </p>
+            </details>
+          </p>
+        </details>
+        </br>
+        <h2>MAESTRO Dataset</h2>
+
+        <details>
+          <summary><b>Exploration</b></summary>
+          <p>
+            <details>
+              <summary>Bach</summary>
+              <p>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Bach/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Bach/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Bach/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>Beethoven</summary>
+              <p>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Beethoven/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Beethoven/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Beethoven/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+              </p>
+            </details>
+            
+            <details>
+              <summary>Chopin</summary>
+              <p>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Chopin/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Chopin/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Chopin/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>Liszt</summary>
+              <p>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Liszt/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Liszt/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Liszt/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>Rachmaninoff</summary>
+              <p>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Rachmaninoff/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Rachmaninoff/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Rachmaninoff/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>Schubert</summary>
+              <p>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Schubert/sample_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Schubert/sample_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Exploration/Schubert/sample_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+              </p>
+            </details>
+          </p>
+        </details>
+
+        <details>
+          <summary><b>Interpolation</b></summary>
+          <p>
+            <details>
+              <summary>#1</summary>
+              <p>
+                Beginning</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Interpolation/begin_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio></br>
+                End</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Interpolation/end_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio></br>
+                Sequence</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Interpolation/sequence_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>#2</summary>
+              <p>
+                Beginning</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Interpolation/begin_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio></br>
+                End</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Interpolation/end_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio></br>
+                Sequence</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Interpolation/sequence_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+              </p>
+            </details>
+            
+            <details>
+              <summary>#3</summary>
+              <p>
+                Beginning</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Interpolation/begin_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio></br>
+                End</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Interpolation/end_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio></br>
+                Sequence</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Interpolation/sequence_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+              </p>
+            </details>
+          </p>
+        </details>
+
+        <details>
+          <summary><b>Projection</b></summary>
+          <p>
+            <details>
+              <summary>#1</summary>
+              <p>
+                Target</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Projection/target_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio></br>
+                Projection</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Projection/projection_0.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+              </p>
+            </details>
+
+            <details>
+              <summary>#2</summary>
+              <p>
+                Target</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Projection/target_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio></br>
+                Projection</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Projection/projection_1.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+              </p>
+            </details>
+            
+            <details>
+              <summary>#3</summary>
+              <p>
+                Target</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Projection/target_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio></br>
+                Projection</br>
+                <audio controls>
+                  <source src="./audios/MAESTRO/Projection/projection_2.mp3" type="audio/mp3">
+                  Your browser does not support the audio element.
+                </audio>
+              </p>
+            </details>
+          </p>
+        </details>
+      </section>
+      <section>
+        <h1>Interactive Demos</h1>
+        <p>We published the StyleGAN2 models trained on different datasets for exploration on Google Colab which can be used
+        in the following links:</p>
+        <ul>
+          <li><a href="https://colab.research.google.com/drive/1bueGBYpBX-M4dX1y4FdY3mChocCI3Qa4?usp=sharing">Maestro</a></li>
+          <li><a href="https://colab.research.google.com/drive/1ejmpgtI6woanbTK04xp31DHfkBCt0IHs?usp=sharing">Lakh Bass</a></li>
+          <li><a href="https://colab.research.google.com/drive/1M54m4JfX-shEX-IVHreanADFRNacuiZB?usp=sharing">Lakh Drums</a></li>
+          <li><a href="https://colab.research.google.com/drive/1ejmpgtI6woanbTK04xp31DHfkBCt0IHs?usp=sharing">Lakh Guitar</a></li>
+          <li><a href="https://colab.research.google.com/drive/1_IAyo-YStHYnvUDnyrtv-ThxFz2UeV2c?usp=sharing">Lakh Piano</a></li>
+          <li><a href="https://colab.research.google.com/drive/13x9kofba2IzaT_p8ktDuaimBnrK0T9u7?usp=sharing">Lakh Strings</a></li>
+        </ul>
+      </section>
+      <section>
+        <h1>Datasets</h1>
+        <p>The processed datasets previously described and used for the experiments in this work is available at:</p>
+        <ul>
+          <li><a href="https://zenodo.org/record/4747698">Maestro</a></li>
+          <li><a href="https://zenodo.org/record/4768780">Lakh</a></li>
+        </ul>
+      </section>
+      <section>
+        <h1>Videos</h1>
+        <p>We arranged 2 different pieces of music using only generated samples from these networks, and using the <a href="https://github.com/mikaelalafriz/lucid-sonic-dreams">Lucid Sonic Dreams</a> library, we published 2 videos interpolating images from 2 different StyleGAN2 models, one with faces from the chilean Museo Nacional de Bellas Artes and another with a WikiArt trained model.</p>
+        <ul>
+          <li>
+            Video #1</br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5z-MMUfKHiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </li>
+          <li>
+            Video #2</br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/THxEOvRG4Ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </li>
+        </ul>
       </section>
       <footer>
         <p>This project is maintained by <a href="http://github.com/mcartagenah">Manuel Cartagena</a></p>
